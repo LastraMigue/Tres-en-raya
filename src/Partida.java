@@ -15,7 +15,7 @@ public class Partida {
                     turno = turno.siguiente();
                 }
             } else {
-                System.out.println("Movimiento inválido. Casilla ocupada o fuera de rango.");
+                System.out.println("\u001B[31mMovimiento inválido. Casilla ocupada o fuera de rango.\u001B[0m");
             }
         }
     }

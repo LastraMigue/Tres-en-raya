@@ -24,7 +24,7 @@ public class Main {
                 partida.jugar(fila - 1, columna - 1);
                 System.out.println("-------------------------");
             } catch (NumberFormatException e) {
-                System.out.println("Por favor, introduce números válidos (1, 2 o 3).");
+                System.out.println("\u001B[31mPor favor, introduce números válidos (1, 2 o 3).\u001B[0m");
                 System.out.println("-------------------------");
             }
         }
